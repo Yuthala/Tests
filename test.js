@@ -6,6 +6,14 @@ describe("pow", function() {
     // it ("3 в степени 3 будет 27", function() {
     //     assert.equal(pow(3, 3), 27); 
     // });
+    it("для отрицательных n возвращает NaN", function() {
+        assert.isNan(pow(2, -1));
+    });
+
+    it("для дробных n возвращает NaN", function() {
+        assert.isNaN(pow(2, 1.5));
+    });
+
     describe("возводит x в степень 3", function() {
 
         function makeTest(x) {
