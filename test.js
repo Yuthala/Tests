@@ -1,7 +1,9 @@
 describe("validate", function() {
     function makeTest(x) {
         let expected = prompt ("Введите число > 0");
-        it 
+        it ("") {
+            assert 
+        }
     }
 });
 
