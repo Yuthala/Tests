@@ -1,11 +1,19 @@
-describe("validate", function() {
-    function makeTest(x) {
-        let expected = prompt ("Введите число > 0");
-        it ("") {
-            assert 
-        }
-    }
-});
+let schedule = {};
+
+alert(isEmpty(schedule));
+
+schedule["08:30"] = "get up";
+
+alert(isEmpty(schedule)); 
+
+// describe("validate", function() {
+//     function makeTest(x) {
+//         let expected = prompt ("Введите число > 0");
+//         it ("") {
+//             assert 
+//         }
+//     }
+// });
 
 // describe("pow", function() {
 //     // it ("2 в степени 3 будет 8", function() {
