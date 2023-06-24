@@ -6,6 +6,13 @@ schedule["08:30"] = "get up";
 
 alert(isEmpty(schedule)); 
 
+function isEmpty(obj) {
+    let key = obj;
+    alert (key in schedule);
+}
+
+isEmpty(schedule);
+
 // describe("validate", function() {
 //     function makeTest(x) {
 //         let expected = prompt ("Введите число > 0");
