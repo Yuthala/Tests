@@ -1,17 +1,16 @@
-let schedule = {};
+let menu = {
+    width: 200,
+    height: 300,
+    title: "My menu"
+};
 
-alert(isEmpty(schedule));
+multiplyNumeric(menu);
 
-schedule["08:30"] = "get up";
-
-alert(isEmpty(schedule)); 
-
-function isEmpty(obj) {
-    let key = obj;
-    alert (key in schedule);
+function multiplyNumeric(obj) {
+    for (let key in obj) {
+        multiplied 
+    }
 }
-
-isEmpty(schedule);
 
 // describe("validate", function() {
 //     function makeTest(x) {
