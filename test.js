@@ -8,7 +8,7 @@ multiplyNumeric(menu);
 
 function multiplyNumeric(obj) {
     for (let key in obj) {
-        multiplied 
+        
     }
 }
 
