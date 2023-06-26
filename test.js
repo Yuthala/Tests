@@ -1,13 +1,16 @@
-function makeUser() {
-    return {
-        name: "John",
-        ref: this
-    };
+let calculator = {
+    read: function(a, b) {
+        let a = prompt('введите первое значение');
+        let b = prompt('введите второе значение');
+    },
+    sum: a + b,
+    mul: a * b
 }
 
-let user = makeUser();
+calculator.read();
+console.log( calculator.sum() );
+console.log( calculator.mul() );
 
-console.log(user.ref.name);
 
 // describe("validate", function() {
 //     function makeTest(x) {
