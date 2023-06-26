@@ -1,16 +1,13 @@
-let menu = {
-    width: 200,
-    height: 300,
-    title: "My menu"
-};
-
-multiplyNumeric(menu);
-
-function multiplyNumeric(obj) {
-    for (let key in obj) {
-        
-    }
+function makeUser() {
+    return {
+        name: "John",
+        ref: this
+    };
 }
+
+let user = makeUser();
+
+console.log(user.ref.name);
 
 // describe("validate", function() {
 //     function makeTest(x) {
