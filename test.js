@@ -1,16 +1,13 @@
-let calculator = {
-    read: function(a, b) {
-        let a = prompt('введите первое значение');
-        let b = prompt('введите второе значение');
-    },
-    sum: a + b,
-    mul: a * b
+function User(name) {
+    this.name = name;
+
+    this.sayHi = function() {
+        console.log("My name is " + this.name);
+    };
 }
 
-calculator.read();
-console.log( calculator.sum() );
-console.log( calculator.mul() );
-
+let John = new User('John');
+John.sayHi();
 
 // describe("validate", function() {
 //     function makeTest(x) {
