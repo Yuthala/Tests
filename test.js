@@ -1,10 +1,23 @@
-function Calculator(a, b) {
-    this.read() = prompt(a, b);
-    this.sum() = a + b;
-    this.mul() = a * b;
+function Calculator() {
+    this.read = function() {
+        this.a = +prompt('a?', 0);
+        this.b = +prompt('b?', 0);
+    };
+
+    this.sum = function() {
+        return this.a + this.b;
+    };
+
+    this.mul = function() {
+        return this.a * this.b;
+    };
 } 
 
 let calculator = new Calculator();
+calculator.read();
+
+console.log( "Sum=" + calculator.sum() );
+console.log( "Mul=" + calculator.mul() );
 
 // describe("validate", function() {
 //     function makeTest(x) {
