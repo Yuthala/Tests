@@ -1,13 +1,10 @@
-function User(name) {
-    this.name = name;
+function Calculator(a, b) {
+    this.read() = prompt(a, b);
+    this.sum() = a + b;
+    this.mul() = a * b;
+} 
 
-    this.sayHi = function() {
-        console.log("My name is " + this.name);
-    };
-}
-
-let John = new User('John');
-John.sayHi();
+let calculator = new Calculator();
 
 // describe("validate", function() {
 //     function makeTest(x) {
