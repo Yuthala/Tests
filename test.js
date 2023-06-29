@@ -1,3 +1,16 @@
+function Accumulator(startingValue) {
+    this.value = startingValue;
+
+    this.read = function() {
+        this.value += +prompt('Сколько добавить?', 0);
+    };
+}
+
+let accumulator = new Accumulator(1);
+accumulator.read();
+accumulator.read();
+console.log(accumulator.value);
+
 function Calculator() {
     this.read = function() {
         this.a = +prompt('a?', 0);
