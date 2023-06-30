@@ -33,9 +33,6 @@ console.log( "Sum=" + calculator.sum() );
 console.log( "Mul=" + calculator.mul() );
 
 
-describe("sum", function {
-    it ()
-})
 
 // describe("pow", function() {
 //     // it ("2 в степени 3 будет 8", function() {
